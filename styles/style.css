@@ -134,7 +134,7 @@ header>nav{
     width: 300px;
 }
 /* ---------Vision sections--------- */
-.vision{
+.vision {
     height: 780px;
     background-image: url(https://cloudinary.fifa.com/m/5859cf78f0052b84/original/FDP-The_Vision_Website_cover.jpg?tx=c_fill,ar_1.78,g_auto,q_auto:best,w_1400);
 }
@@ -268,3 +268,92 @@ footer{
     font-size: 18px;
     color: #000000;
 }
+
+/* ---------For mobile screen---------  */
+@media only screen and (max-width: 688px) {
+    header{
+        width: 360px;
+        height: 695px;
+    }
+    header nav {
+        display: none;
+    }
+    .hero-section {
+        flex-direction: column;
+    }
+    .half-width {
+        width: 40%;
+        padding-bottom: 80px;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: 8%;
+    }
+    .hero-section .hero-left-content>h1 {
+        font-size: 36px;
+        font-weight: 700;
+        color: #FFFFFF;
+        
+    }
+    .main-btn {
+        background-color: #E02C6D;
+        font-size: 16px;
+        color: #FFFFFF;
+        border: none;
+        cursor: pointer;
+        width: 130px;
+        height: 40px;
+    }
+    .hero-section .hero-image img {
+        width: 329px;
+        height: 259.17px;
+    }
+    .players{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .vision-text {
+        font-size: 36px;
+        line-height: 47px;
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+    .vision-info {
+        width: 340px;
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .highlight {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .highlight-content {
+        margin-bottom: 34px;
+    }
+    .highlight-text {
+        font-size: 30px;
+        line-height: 40px;
+        margin-bottom: 8px;
+    }
+    .highlight-description {
+        width: 329px;
+        height: 143px;
+    }
+    .main-btn {
+        width: 172px;
+        height: 44px;
+
+    }
+    .highlight-image img {
+        width: 328px;
+        height: 248px;
+    }
+    .partners {
+        grid-template-columns: repeat(2,1fr);
+        column-gap: 50px;
+        row-gap: 60px;
+    }
+}
+
+/* ---------For tablet screen---------  */
