@@ -16,6 +16,10 @@ header{
     width: 1440px;
     height: 677px;
     background-color: #2D25A0;
+    transition: transform 0.3s;;
+}
+header:hover .banner{
+    transform: scale(1.2);
 }
 header>nav{
     display: flex;
@@ -36,6 +40,7 @@ header>nav{
     background-color: #E02C6D;
     color: #FFFFFF;
     border: none;
+    cursor: pointer;
 }
 .login>button>i{
     margin-right: 8px;
@@ -56,6 +61,7 @@ header>nav{
     font-size: 16px;
     color: #FFFFFF;
     border: none;
+    cursor: pointer;
 }
 .main-btn>i{
     margin-left: 5px;
@@ -68,24 +74,7 @@ header>nav{
 }
 
 /* ---------Players sections--------- */
-/* .players{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    column-gap: 30px;
-    row-gap: 30px;
-}
-.player{
-    width: 330px;
-    height: 474px;
-    background-color: #FFFFFF;
-    box-shadow: 0 0 15px lightgrey;
-}
-.player-box{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-} */
+
 .container{
     display: flex;
     flex-direction: column;
@@ -164,6 +153,7 @@ header>nav{
     position: relative;
     left: 12%;
     top: 30%;
+    cursor: pointer;
 }
 
 /* ---------highlight sections--------- */
