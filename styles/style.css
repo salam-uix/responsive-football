@@ -1,8 +1,16 @@
+/* ---------Utilities--------- */
+.half-width{
+    width: 40%;;
+}
+/* ---------bodystyle--------- */
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
+    padding: 0;
+    width: 100%px;
+    background-color: #FFFFFF;
 }
-/* Hero sections */
+/* ---------Hero sections--------- */
 
 header{
     width: 1440px;
@@ -57,4 +65,62 @@ header>nav{
 .hero-section .hero-image img{
     width: 556px;
     height: 438px;
+}
+
+/* ---------Players sections--------- */
+/* .players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 30px;
+    row-gap: 30px;
+}
+.player{
+    width: 330px;
+    height: 474px;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 15px lightgrey;
+}
+.player-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 30px;
+    row-gap: 30px;
+}
+.player{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 330px;
+    height: 474px;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 15px lightgrey;
+}
+.player-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.player-image img{
+    width: 300px;
+    height: 256px;
+}
+.player-details .player-name{
+    font-size: 28px;
+    font-weight: 700;
+    color: #18191F;
+    margin-bottom: 10px;
+}
+.player-details .player-info{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 500;
+    color: #6C6C6C;
+    width: 300px;
 }
