@@ -173,6 +173,26 @@ header>nav{
     height: 427px;
 }
 
+/* ---------Partners sections--------- */
+.copa-partners{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 158px;
+}
+.section-title{
+    font-size: 38px;
+    font-weight: 500;
+    padding-bottom: 50px;
+}
+.partners{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 300px;
+    row-gap: 60px;
+}
+
 /* ---------Footer sections--------- */
 footer{
     display: flex;
