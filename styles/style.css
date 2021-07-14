@@ -136,7 +136,7 @@ header>nav{
 /* ---------Vision sections--------- */
 .vision{
     height: 780px;
-    background-image: url(./images/cover-img.png);
+    background-image: url(https://cloudinary.fifa.com/m/5859cf78f0052b84/original/FDP-The_Vision_Website_cover.jpg?tx=c_fill,ar_1.78,g_auto,q_auto:best,w_1400);
 }
 .vision-text{
     width: 469px;
