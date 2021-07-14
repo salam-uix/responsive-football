@@ -13,7 +13,7 @@ body{
 /* ---------Hero sections--------- */
 
 header{
-    width: 1440px;
+    width: 100%;
     height: 677px;
     background-color: #2D25A0;
     transition: transform 0.3s;;
@@ -85,10 +85,11 @@ header>nav{
 
 /* ---------Players sections--------- */
 
-.container{
+.container {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .player-section{
     display: flex;
@@ -135,6 +136,7 @@ header>nav{
 }
 /* ---------Vision sections--------- */
 .vision {
+    width: 100%;
     height: 780px;
     background-image: url(https://cloudinary.fifa.com/m/5859cf78f0052b84/original/FDP-The_Vision_Website_cover.jpg?tx=c_fill,ar_1.78,g_auto,q_auto:best,w_1400);
 }
@@ -164,6 +166,15 @@ header>nav{
     position: relative;
     left: 12%;
     top: 30%;
+    cursor: pointer;
+}
+.vision-btn{
+    width: 168px;
+    height: 44px;
+    background-color: #E02C6D;
+    font-size: 16px;
+    color: #FFFFFF;
+    border: none;
     cursor: pointer;
 }
 .vision-button a{
@@ -317,16 +328,21 @@ footer{
         line-height: 47px;
         font-weight: 700;
         margin-bottom: 10px;
+        position: relative;
+        left: 20%;
     }
     .vision-info {
         width: 340px;
         font-size: 16px;
         line-height: 28px;
+        position: relative;
+        left: 20%;
     }
     .highlight {
         display: flex;
         justify-content: center;
         flex-direction: column;
+        align-items: center;
     }
     .highlight-content {
         margin-bottom: 34px;
@@ -340,10 +356,10 @@ footer{
         width: 329px;
         height: 143px;
     }
-    .main-btn {
+    .vision {
         width: 172px;
         height: 44px;
-
+        position: relative;
     }
     .highlight-image img {
         width: 328px;
