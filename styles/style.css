@@ -136,7 +136,7 @@ header>nav{
 /* ---------Vision sections--------- */
 .vision{
     height: 780px;
-    background-image: url(/images/cover-img.png);
+    background-image: url(./images/cover-img.png);
 }
 .vision-text{
     width: 469px;
